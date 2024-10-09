@@ -1,0 +1,5 @@
+@echo off
+set "folderPath=D:\pythan"
+for /l %%i in (1,1,10) do (
+    mkdir "%folderPath%\day%%i"
+)
